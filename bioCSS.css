@@ -1,0 +1,296 @@
+.col {
+  -webkit-columns: sm -4px;
+          columns: sm -4px;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.center {
+  margin: auto;
+  width: 41%;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+.center-block1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-block1:hover {
+  outline: solid 2px black;
+}
+
+.center-block2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crop {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.middle {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #F7E6EE;
+  border-radius: 50%;
+  color: black;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.nav-link {
+  color: #2F3130;
+  font-weight: bold;
+  outline: solid 3px;
+  border-radius: 100%;
+  padding: 30px;
+}
+
+.nav-link:hover {
+  color: white;
+  border-radius: 100%;
+  background-color: #835A26;
+}
+
+.a {
+  font-family: 'Basic', sans-serif;
+}
+
+.b {
+  font-family: 'Halant', serif;
+}
+
+.c {
+  font-family: 'Rosario', sans-serif;
+  text-align: center;
+}
+
+.x {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.y {
+  font-family: 'Alegreya', serif;
+}
+
+.z {
+  font-family: 'Oleo Script', cursive;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #F7E6EE;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 28px;
+  color: #818181;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.botspace {
+  margin-bottom: 20px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  border-top-left-radius: 300%;
+  border-bottom-left-radius: 300%;
+  background-color: #B38E49;
+  margin-left: 20%;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+body.e {
+  background-image: url("images/bg3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-animation: fadeInAnimation ease 3s;
+          animation: fadeInAnimation ease 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+body.f {
+  background-image: url("images/bg7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  -webkit-animation: fadeInAnimation ease 3s;
+          animation: fadeInAnimation ease 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+body.g {
+  background-image: url("images/bg1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-animation: fadeInAnimation ease 3s;
+          animation: fadeInAnimation ease 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+
+p.aa {
+  font-family: 'UglyTypistRegular';
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 70px;
+}
+
+li {
+  font-size: 25px;
+  padding: 0px 130px 0px;
+}
+/*# sourceMappingURL=bioCSS.css.map */
